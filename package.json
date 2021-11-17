@@ -1,12 +1,19 @@
 {
-  "name": "simple-currency-formatting",
+  "name": "@powrfulcow89/simple-currency-formatting",
   "version": "1.0.0",
   "description": "Help properly format numerical values into currency notation.",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": "git://github.com/POWRFULCOW89/simple-currency-formatting.git" ,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["js", "currency"],
+  "keywords": [
+    "js",
+    "currency"
+  ],
   "author": "POWRFULCOW89",
   "license": "ISC"
 }
