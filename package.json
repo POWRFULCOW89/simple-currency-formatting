@@ -4,7 +4,7 @@
   "description": "Help properly format numerical values into currency notation.",
   "main": "index.js",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "@powrfulcow89:registry": "https://npm.pkg.github.com/"
   },
   "repository": "git://github.com/POWRFULCOW89/simple-currency-formatting.git" ,
   "scripts": {
