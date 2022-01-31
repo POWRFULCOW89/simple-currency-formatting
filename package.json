@@ -6,8 +6,10 @@
   "publishConfig": {
     "@powrfulcow89:registry": "https://npm.pkg.github.com/"
   },
-  "repository": "git://github.com/POWRFULCOW89/simple-currency-formatting.git" ,
+  "repository": "git://github.com/POWRFULCOW89/simple-currency-formatting.git",
   "scripts": {
+    "prepublish": "tsc",
+    "build": "tsc",
     "test": "node test.js"
   },
   "keywords": [
@@ -15,5 +17,9 @@
     "currency"
   ],
   "author": "POWRFULCOW89",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "types": "./index.d.ts"
 }
