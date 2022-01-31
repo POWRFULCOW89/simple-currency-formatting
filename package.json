@@ -8,7 +8,6 @@
   },
   "repository": "git://github.com/POWRFULCOW89/simple-currency-formatting.git",
   "scripts": {
-    "prepublish": "tsc",
     "build": "tsc"
   },
   "keywords": [
